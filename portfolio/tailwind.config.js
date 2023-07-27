@@ -1,20 +1,16 @@
-const defaultTheme = require('tailwindcss/defaultTheme')
-
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ['./src/**/*.{html, js}'],
+  content: ['./src/**/*.{js,jsx,ts,tsx}', './public/index.html'],
   theme: {
-    extend: {
-      
+    colors: {
+      'd-pur': '#191825',
+      'm-pur': '#4C0070',
+      'l-pur': '#E384FF'
+    },
+    fontFamily: {
+      'standard': ['helvetica'],
     },
   },
   plugins: [require("daisyui")],
 }
 
-// colors: {
-      //   'black': '#191825',
-      //   'periw': '#865DFF',
-      //   'dar-purple': '#4C0070',
-      //   'med-purple': '#E384FF',
-      //   'lig-purple': '#FFA3FD'
-      // },
