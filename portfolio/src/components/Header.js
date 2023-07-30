@@ -1,12 +1,12 @@
 import React from "react";
-import logo from "../assets/LOGO.png";
+import logo from "../assets/logo-2.png";
 
 // Here we are using object destructuring assignment to pluck off our variables from the props object
 // We assign them to their own variable names
 function Header({ currentPage, handlePageChange }) {
   return (
     <ul className="grid grid-cols-12 justify-items-end items-center text-l-pur bg-d-pur h-20">
-      <li className="w-96 col-start-1 col-end-4">
+      <li className="w-96 col-start-1 col-end-4 pt-2">
         <img src={logo} alt="Sabrina's logo" className="h-20"></img>
       </li>
       <li className="w-32 col-start-9 col-end-10">

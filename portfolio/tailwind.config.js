@@ -8,7 +8,8 @@ module.exports = {
       'l-pur': '#E384FF'
     },
     fontFamily: {
-      'standard': ['helvetica'],
+      'standard': ['Josefin Sans'],
+      'bold': ['Josefin Sans SemiBold 600'],
     },
   },
   plugins: [require("daisyui")],
