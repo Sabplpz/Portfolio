@@ -1,14 +1,17 @@
 import React from "react";
-import firstProject from "../../assets/moody.png";
-import secondProject from "../../assets/techposts.png";
-import thirdProject from "../../assets/stargazers.png";
-import fourthProject from "../../assets/weather-dashboard.png";
-import fifthProject from "../../assets/jate.png";
-import sixthProject from "../../assets/first-portfolio.png";
+import firstProject from "../../assets/projects/moody.png";
+import secondProject from "../../assets/projects/techposts.png";
+import thirdProject from "../../assets/projects/stargazers.png";
+import fourthProject from "../../assets/projects/weather-dashboard.png";
+import fifthProject from "../../assets/projects/jate.png";
+import sixthProject from "../../assets/projects/first-portfolio.png";
 
 export default function Projects() {
   return (
-    <div id="projects" className="grid bg-d-pur gap-10 pt-10 justify-items-center">
+    <div
+      id="projects"
+      className="grid bg-d-pur gap-10 pt-10 justify-items-center"
+    >
       <h1 className="text-6xl font-standard font-bold text-l-pur text-center">
         My Projects
       </h1>
@@ -47,8 +50,8 @@ export default function Projects() {
           <div className="card-body">
             <h2 className="card-title">Tech Posts</h2>
             <p>
-              A website for people who like to talk with the Tech community about
-              Tech!
+              A website for people who like to talk with the Tech community
+              about Tech!
             </p>
             <div className="card-actions justify-end">
               <a

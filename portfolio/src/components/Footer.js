@@ -1,7 +1,7 @@
 import React from "react";
-import github from "../assets/github.png";
-import linkedin from "../assets/linkedin.png";
-import email from "../assets/email.png";
+import github from "../assets/icons/github.png";
+import linkedin from "../assets/icons/linkedin.png";
+import email from "../assets/icons/email.png";
 
 function Footer() {
   return (
@@ -22,12 +22,16 @@ function Footer() {
       </div>
       <div className="grid-flow-col md:gap-4 md:place-self-center md:justify-self-end">
         <a href="https://www.linkedin.com/in/sabrinaplpz/">
-          <img src={linkedin} alt="Sabrina's logo" className="h-8 md:h-12"></img>
+          <img
+            src={linkedin}
+            alt="Sabrina's logo"
+            className="h-8 md:h-12"
+          ></img>
         </a>
         <a href="https://github.com/Sabplpz">
           <img src={github} alt="Sabrina's logo" className="h-8 md:h-12"></img>
         </a>
-        <a href="mailto: sabplpz@gmail.com">
+        <a href="mailto: sabrinaplpz@gmail.com">
           <img src={email} alt="Sabrina's logo" className="h-8 md:h-12"></img>
         </a>
       </div>

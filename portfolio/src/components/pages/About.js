@@ -2,7 +2,10 @@ import React from "react";
 
 export default function About() {
   return (
-    <div id="about" className="bg-d-pur font-standard p-4 pl-10 pr-10 grid justify-items-center text-center text-l-pur md:-mt-32 lg:-mt-48">
+    <div
+      id="about"
+      className="bg-d-pur font-standard p-4 pl-10 pr-10 grid justify-items-center text-center text-l-pur md:-mt-32 lg:-mt-48"
+    >
       <div className="grid justify-items-center">
         <h4 className="p-4">Hey, my name is </h4>
         <h1 className="font-bold italic text-8xl">Sabrina Centeno</h1>

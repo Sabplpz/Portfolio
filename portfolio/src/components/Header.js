@@ -1,16 +1,17 @@
 import React from "react";
-import logo from "../assets/logo-2.png";
-import menu from "../assets/menu.png";
-import { useState } from "react";
+import logo from "../assets/icons/logo-2.png";
+import menu from "../assets/icons/menu.png";
+import resume from '../assets/resume/resume.pdf';
+import { useState, useEffect } from "react";
 
 // Here we are using object destructuring assignment to pluck off our variables from the props object
 // We assign them to their own variable names
 function Header({ currentPage, handlePageChange }) {
-  const [width, setWidth] = React.useState(window.innerWidth);
+  const [width, setWidth] = useState(window.innerWidth);
 
   const breakpoint = 750;
 
-  React.useEffect(() => {
+  useEffect(() => {
     window.addEventListener("resize", () => setWidth(window.innerWidth));
   }, []);
 
@@ -53,10 +54,7 @@ function Header({ currentPage, handlePageChange }) {
           </li>
           <li className="col-start-4 w-32">
             <a
-              href="#resume"
-              onClick={() => handlePageChange("Resume")}
-              // This is a conditional (ternary) operator that checks to see if the current page is "Home"
-              // If it is, we set the current page to 'nav-link-active', otherwise we set it to 'nav-link'
+              href={resume} target='_blank'
               className="hover:bg-m-pur hover:border-solid hover:border-2 hover:border-m-pur hover:rounded-md p-4"
             >
               Resume
@@ -68,11 +66,11 @@ function Header({ currentPage, handlePageChange }) {
   );
 
   const dropdownMenu = (
-    <div className="navbar text-l-pur bg-d-pur">
-      <div className="flex-1">
+    <div className="navbar text-l-pur bg-d-pur" >
+      <div className="flex-1" >
         <img src={logo} alt="Sabrina's logo" className="h-20"></img>
       </div>
-      <div class="dropdown">
+      <div class="dropdown z-50">
         <div
           tabindex="0"
           class="m-1 btn h-20 bg-d-pur"
@@ -88,7 +86,14 @@ function Header({ currentPage, handlePageChange }) {
           tabindex="0"
           class="p-2 shadow menu dropdown-content bg-d-pur rounded-box w-52"
         >
-          <li className=" p-2 col-start-1 w-32">
+          <li
+            className=" p-2 col-start-1 w-32"
+            onClick={() => {
+              if (document.activeElement instanceof HTMLElement) {
+                document.activeElement.blur();
+              }
+            }}
+          >
             <a
               onClick={() => handlePageChange("About")}
               // Check to see if the currentPage is `About`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
@@ -97,7 +102,14 @@ function Header({ currentPage, handlePageChange }) {
               About Me
             </a>
           </li>
-          <li className="p-2 col-start-2 w-32">
+          <li
+            className="p-2 col-start-2 w-32"
+            onClick={() => {
+              if (document.activeElement instanceof HTMLElement) {
+                document.activeElement.blur();
+              }
+            }}
+          >
             <a
               onClick={() => handlePageChange("Projects")}
               // Check to see if the currentPage is `Blog`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
@@ -106,7 +118,14 @@ function Header({ currentPage, handlePageChange }) {
               Projects
             </a>
           </li>
-          <li className="p-2 col-start-3 w-32">
+          <li
+            className="p-2 col-start-3 w-32"
+            onClick={() => {
+              if (document.activeElement instanceof HTMLElement) {
+                document.activeElement.blur();
+              }
+            }}
+          >
             <a
               onClick={() => handlePageChange("Contact")}
               // Check to see if the currentPage is `Contact`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
@@ -115,11 +134,16 @@ function Header({ currentPage, handlePageChange }) {
               Contact
             </a>
           </li>
-          <li className="p-2 col-start-4 w-32">
+          <li
+            className="p-2 col-start-4 w-32"
+            onClick={() => {
+              if (document.activeElement instanceof HTMLElement) {
+                document.activeElement.blur();
+              }
+            }}
+          >
             <a
-              onClick={() => handlePageChange("Resume")}
-              // This is a conditional (ternary) operator that checks to see if the current page is "Home"
-              // If it is, we set the current page to 'nav-link-active', otherwise we set it to 'nav-link'
+              href={resume} target='_blank'
               className="hover:bg-m-pur hover:border-solid hover:border-2 hover:border-m-pur hover:rounded-md p-4"
             >
               Resume
