@@ -2,7 +2,7 @@ import React from "react";
 
 export default function About() {
   return (
-    <div className="bg-d-pur font-standard p-4 pl-10 pr-10 grid justify-items-center text-l-pur">
+    <div id="about" className="bg-d-pur font-standard p-4 pl-10 pr-10 grid justify-items-center text-center text-l-pur md:-mt-32 lg:-mt-48">
       <div className="grid justify-items-center">
         <h4 className="p-4">Hey, my name is </h4>
         <h1 className="font-bold italic text-8xl">Sabrina Centeno</h1>
@@ -28,7 +28,7 @@ export default function About() {
           <strong className="italic font-bold">MERN stack</strong>, I have been
           able to get proficient with various enviroments, frameworks and
           libraries.<br></br>
-          In my portfolio, you have acces to my Projects, which demonstrate my{" "}
+          In my portfolio, you have access to my Projects, which demonstrate my{" "}
           <strong className="italic font-bold">multiple skills</strong>, as well
           as my Resume and Contact information.<br></br>
           Please feel free to hang around!

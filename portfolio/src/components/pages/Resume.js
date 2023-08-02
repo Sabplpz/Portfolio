@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Resume() {
   return (
-    <div className=''>
+    <div id="resume" className='bg-d-pur'>
       <h1>RESUME</h1>
       <p>
         Nunc pharetra finibus est at efficitur. Praesent sed congue diam.

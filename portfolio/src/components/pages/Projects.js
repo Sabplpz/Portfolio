@@ -8,12 +8,14 @@ import sixthProject from "../../assets/first-portfolio.png";
 
 export default function Projects() {
   return (
-    <div className="grid gap-10 pt-10 justify-items-center">
-      <h1 className="text-6xl font-standard text-l-pur">My Projects</h1>
-      <div className="grid grid-cols-3 gap-10 justify-items-center">
-        <div className="card w-96 bg-base-100 shadow-xl image-full">
+    <div id="projects" className="grid bg-d-pur gap-10 pt-10 justify-items-center">
+      <h1 className="text-6xl font-standard font-bold text-l-pur text-center">
+        My Projects
+      </h1>
+      <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-10 justify-items-center pr-4 pl-4 text-center">
+        <div className="card md:w-96 bg-base-100 shadow-xl image-full">
           <figure>
-            <img src={firstProject} alt="Moody website"/>
+            <img src={firstProject} alt="Moody website" />
           </figure>
           <div className="card-body">
             <h2 className="card-title">Moody</h2>
@@ -38,18 +40,18 @@ export default function Projects() {
             </div>
           </div>
         </div>
-        <div className="card w-96 bg-base-100 shadow-xl image-full">
+        <div className="card md:w-96 bg-base-100 shadow-xl image-full">
           <figure>
             <img src={secondProject} alt="Tech Posts Website" />
           </figure>
           <div className="card-body">
             <h2 className="card-title">Tech Posts</h2>
             <p>
-              Awebsite for people who like to talk with the Tech community about
+              A website for people who like to talk with the Tech community about
               Tech!
             </p>
             <div className="card-actions justify-end">
-            <a
+              <a
                 href="https://github.com/Sabplpz/TechPosts"
                 target="_blank"
                 rel="noreferrer"
@@ -68,7 +70,7 @@ export default function Projects() {
             </div>
           </div>
         </div>
-        <div className="card w-96 bg-base-100 shadow-xl image-full">
+        <div className="card md:w-96 bg-base-100 shadow-xl image-full">
           <figure>
             <img src={thirdProject} alt="Stargazers Website" />
           </figure>
@@ -79,7 +81,7 @@ export default function Projects() {
               you!
             </p>
             <div className="card-actions justify-end">
-            <a
+              <a
                 href="https://github.com/Sabplpz/StarGazers"
                 target="_blank"
                 rel="noreferrer"
@@ -98,7 +100,7 @@ export default function Projects() {
             </div>
           </div>
         </div>
-        <div className="card w-96 bg-base-100 shadow-xl image-full">
+        <div className="card md:w-96 bg-base-100 shadow-xl image-full">
           <figure>
             <img src={fourthProject} alt="Weather Dashboard Website" />
           </figure>
@@ -108,7 +110,7 @@ export default function Projects() {
               Want to check the weather online? Then this website is for you!
             </p>
             <div className="card-actions justify-end">
-            <a
+              <a
                 href="https://github.com/Sabplpz/Weather-Dashboard"
                 target="_blank"
                 rel="noreferrer"
@@ -127,15 +129,18 @@ export default function Projects() {
             </div>
           </div>
         </div>
-        <div className="card w-96 bg-base-100 shadow-xl image-full">
+        <div className="card md:w-96 bg-base-100 shadow-xl image-full">
           <figure>
             <img src={fifthProject} alt="JATE Website" />
           </figure>
           <div className="card-body">
             <h2 className="card-title">Just Another Text Editor</h2>
-            <p>J.A.T.E is for those on the go developers that need an easily accessible code editor!</p>
+            <p>
+              J.A.T.E is for those on the go developers that need an easily
+              accessible code editor!
+            </p>
             <div className="card-actions justify-end">
-            <a
+              <a
                 href="https://github.com/Sabplpz/JATE"
                 target="_blank"
                 rel="noreferrer"
@@ -154,7 +159,7 @@ export default function Projects() {
             </div>
           </div>
         </div>
-        <div className="card w-96 bg-base-100 shadow-xl image-full">
+        <div className="card md:w-96 bg-base-100 shadow-xl image-full">
           <figure>
             <img src={sixthProject} alt="First Portfolio" />
           </figure>
@@ -165,8 +170,8 @@ export default function Projects() {
               portfolio!
             </p>
             <div className="card-actions justify-end">
-            <a
-                href="https://github.com/Sabplpz/Moody"
+              <a
+                href="https://github.com/Sabplpz/first-portfolio"
                 target="_blank"
                 rel="noreferrer"
                 className="btn btn-primary bg-m-pur hover:bg-l-pur border-m-pur hover:border-l-pur"
@@ -174,7 +179,7 @@ export default function Projects() {
                 Github Repo
               </a>
               <a
-                href="https://tranquil-wildwood-45278.herokuapp.com/login"
+                href="https://sabplpz.github.io/first-portfolio/"
                 target="_blank"
                 rel="noreferrer"
                 className="btn btn-primary bg-m-pur hover:bg-l-pur border-m-pur hover:border-l-pur"

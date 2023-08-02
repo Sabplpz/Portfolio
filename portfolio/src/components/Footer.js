@@ -5,7 +5,7 @@ import email from "../assets/email.png";
 
 function Footer() {
   return (
-    <footer className="footer items-center p-2 pl-8 pr-8 bg-d-pur text-m-pur absolute bottom-0">
+    <footer className="footer items-center p-2 pl-8 pr-8 bg-d-pur text-m-pur">
       <div className="items-center grid-flow-col">
         <svg
           width="36"
@@ -20,15 +20,15 @@ function Footer() {
         </svg>
         <p>Copyright © 2023 - All rights reserved</p>
       </div>
-      <div className="grid-flow-col gap-4 md:place-self-center md:justify-self-end">
+      <div className="grid-flow-col md:gap-4 md:place-self-center md:justify-self-end">
         <a href="https://www.linkedin.com/in/sabrinaplpz/">
-          <img src={linkedin} alt="Sabrina's logo" className="h-12"></img>
+          <img src={linkedin} alt="Sabrina's logo" className="h-8 md:h-12"></img>
         </a>
         <a href="https://github.com/Sabplpz">
-          <img src={github} alt="Sabrina's logo" className="h-12"></img>
+          <img src={github} alt="Sabrina's logo" className="h-8 md:h-12"></img>
         </a>
         <a href="mailto: sabplpz@gmail.com">
-          <img src={email} alt="Sabrina's logo" className="h-12"></img>
+          <img src={email} alt="Sabrina's logo" className="h-8 md:h-12"></img>
         </a>
       </div>
     </footer>
