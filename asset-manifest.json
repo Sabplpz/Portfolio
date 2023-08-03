@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.008a3ad1.css",
+    "main.js": "/Portfolio/static/js/main.e6d19ac5.js",
+    "static/media/stargazers.png": "/Portfolio/static/media/stargazers.3d3b62aff8fd2b980501.png",
+    "static/media/first-portfolio.png": "/Portfolio/static/media/first-portfolio.faa2a49accee2097d53c.png",
+    "static/media/moody.png": "/Portfolio/static/media/moody.cf30a4bda05b9128f2a1.png",
+    "static/media/weather-dashboard.png": "/Portfolio/static/media/weather-dashboard.4bb854aaa6a5e521b3d4.png",
+    "static/media/techposts.png": "/Portfolio/static/media/techposts.cb614c5ccb70d8e4dde8.png",
+    "static/media/resume.pdf": "/Portfolio/static/media/resume.ea564199b88577259fcc.pdf",
+    "static/media/logo-2.png": "/Portfolio/static/media/logo-2.7fe5df83c1c753fee5f0.png",
+    "static/media/jate.png": "/Portfolio/static/media/jate.94c16047bb7e7868fee3.png",
+    "static/media/github.png": "/Portfolio/static/media/github.248a844149297ea97b3c.png",
+    "index.html": "/Portfolio/index.html",
+    "main.008a3ad1.css.map": "/Portfolio/static/css/main.008a3ad1.css.map",
+    "main.e6d19ac5.js.map": "/Portfolio/static/js/main.e6d19ac5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.008a3ad1.css",
+    "static/js/main.e6d19ac5.js"
+  ]
+}
