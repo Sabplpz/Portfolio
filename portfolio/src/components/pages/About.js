@@ -4,25 +4,25 @@ export default function About() {
   return (
     <div
       id="about"
-      className="bg-d-pur font-standard p-4 pl-10 pr-10 grid justify-items-center text-center text-l-pur md:-mt-32 lg:-mt-48"
+      className="bg-d-pur font-standard p-4 pl-10 pr-10 grid justify-items-center text-center text-l-pur md:pb-32 max-w-screen"
     >
       <div className="grid justify-items-center">
         <h4 className="p-4">Hey, my name is </h4>
-        <h1 className="font-bold italic text-8xl">Sabrina Centeno</h1>
+        <h1 className="font-bold italic text-7xl md:text-8xl">Sabrina Centeno</h1>
       </div>
       <div className="text-3xl pt-6">
         <h1> Full Stack Web Developer</h1>
       </div>
-      <div className="text-2xl pt-6 text-center">
+      <div className="text-xl md:text-2xl pt-6 text-center">
         <p>
           I have been in love with coding ever since I can remember. In the past
-          few years, I have dedicated my time to deep learning coding.<br></br>
+          few years, I have dedicated to immersing myself in the world of coding.<br></br>
           My time in
           <strong className="italic font-bold">
             {" "}
             University of Central Florida{" "}
           </strong>{" "}
-          has been the most successful of it all.<br></br>
+          has been one of the most successful of it all.<br></br>
           From learning simple{" "}
           <strong className="italic font-bold">
             HTML, CSS and Javascript
