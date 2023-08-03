@@ -10,9 +10,9 @@ export default function Projects() {
   return (
     <div
       id="projects"
-      className="grid bg-d-pur gap-10 pt-10 justify-items-center"
+      className="grid bg-d-pur gap-10 pb-20 justify-items-center font-standard font-bold"
     >
-      <h1 className="text-6xl font-standard font-bold text-l-pur text-center">
+      <h1 className="text-6xl text-l-pur text-center">
         My Projects
       </h1>
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-10 justify-items-center pr-4 pl-4 text-center">
@@ -21,7 +21,7 @@ export default function Projects() {
             <img src={firstProject} alt="Moody website" />
           </figure>
           <div className="card-body">
-            <h2 className="card-title">Moody</h2>
+            <h1 className="card-title">Moody</h1>
             <p>A website for people that journal online!</p>
             <div className="card-actions justify-end">
               <a

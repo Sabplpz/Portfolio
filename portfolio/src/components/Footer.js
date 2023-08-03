@@ -5,7 +5,7 @@ import email from "../assets/icons/email.png";
 
 function Footer() {
   return (
-    <footer className="footer justify-items-center md:justify-between grid p-2 pl-8 pr-8 bg-d-pur text-m-pur">
+    <footer className="footer justify-items-center md:justify-between grid p-2 pl-8 pr-8 bg-d-pur text-m-pur font-standard font-bold">
       <div className="grid-flow-col md:gap-4 md:place-self-center md:justify-self-start">
         <a href="https://www.linkedin.com/in/sabrinaplpz/">
           <img

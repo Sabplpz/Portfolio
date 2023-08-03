@@ -9,7 +9,7 @@ module.exports = {
     },
     fontFamily: {
       standard: ["Josefin Sans"],
-      bold: ["Josefin Sans SemiBold 600"],
+      sbold: ["Josefin Sans SemiBold 600"],
     },
   },
   plugins: [require("daisyui")],
