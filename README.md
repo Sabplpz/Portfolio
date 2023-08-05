@@ -13,9 +13,10 @@ Hello, it is possible you are here for three scenarios:
 1. You are trying to hire me and are looking at my projects, please continue.
 2. You liked my work and are trying to get inspiration, I have been in your position.
 3. You're just curious about my GitHub.
-   In any case, please feel welcome to continue browsing and getting ideas! I am extremely proud of this portfolio. 
-   It represents me and what I love. This is one of the websites that will show you my passion for coding and everything that one can create with it.
-   Thank you for stopping by my portfolio, and I truly hope you enjoyed it!
+   
+In any case, please feel welcome to continue browsing and getting ideas! I am extremely proud of this portfolio. 
+It represents me and what I love. This is one of the websites that will show you my passion for coding and everything that one can create with it.
+Thank you for stopping by my portfolio, and I truly hope you enjoyed it!
 
 ## Credits
 
