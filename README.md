@@ -4,7 +4,7 @@
 <h1 align="center">
   Sabrina Centeno's Portfolio
 </h1>
-<div><img alt="badge" src="./portfolio/src/assets/badges/built-with-react.js.svg" width="240" /><img alt="badge" src="./portfolio/src/assets/badges/styled-by-tailwindcss.svg" width="275" /><img alt="badge" src="./portfolio/src/assets/badges/styled-by-daisyui.svg" width="220" /><img alt="badge" src="./portfolio/src/assets/badges/deployed-with-github.svg" width="275" /> </div>
+<div><img alt="badge" src="./portfolio/src/assets/badges/built-with-react.js.svg" width="240" /><img alt="badge" src="./portfolio/src/assets/badges/styled-by-tailwindcss.svg" width="250" /><img alt="badge" src="./portfolio/src/assets/badges/styled-by-daisyui.svg" width="212" /><img alt="badge" src="./portfolio/src/assets/badges/deployed-with-github.svg" width="250" /> </div>
 
 ## Welcome!!
 
