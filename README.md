@@ -1,5 +1,5 @@
 <div align="center">
-  <img alt="Logo" src="./portfolio/src/assets/icons/logo-2.png" width="300" />
+  <a href="https://sabplpz.github.io/Portfolio/"><img alt="Logo" src="./portfolio/src/assets/icons/logo-2.png" width="300" /></a>
 </div>
 <h1 align="center">
   Sabrina Centeno's Portfolio
@@ -26,3 +26,7 @@ This portfolio was created with a lot blood, sweat and tears overnight and durin
 ## License
 
 This portfolio is released under the MIT License. You are free to use, modify, and distribute this application as per the terms of this license.
+
+## Link
+
+[Portfolio here!](https://sabplpz.github.io/Portfolio/)
