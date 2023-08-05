@@ -10,7 +10,7 @@ export default function Projects() {
   return (
     <div
       id="projects"
-      className="grid bg-d-pur gap-10 pb-20 justify-items-center font-standard font-bold"
+      className="grid bg-d-pur gap-10 justify-items-center font-standard font-bold"
     >
       <h1 className="text-6xl text-l-pur text-center">
         My Projects

@@ -66,11 +66,11 @@ function Header({ currentPage, handlePageChange }) {
   );
 
   const dropdownMenu = (
-    <div className="navbar text-l-pur bg-d-pur" >
+    <div className="navbar text-l-pur " >
       <div className="flex-1" >
         <img src={logo} alt="Sabrina's logo" className="h-20"></img>
       </div>
-      <div class="dropdown z-50">
+      <div class="dropdown dropdown-end z-50">
         <div
           tabindex="0"
           class="m-1 btn h-20 bg-d-pur"
@@ -84,7 +84,7 @@ function Header({ currentPage, handlePageChange }) {
         </div>
         <ul
           tabindex="0"
-          class="p-2 shadow menu dropdown-content bg-d-pur rounded-box w-52"
+          class="p-2 shadow menu dropdown-content bg-d-pur rounded-box text-center bg-opacity-80"
         >
           <li
             className=" p-2 col-start-1 w-32"
@@ -131,7 +131,7 @@ function Header({ currentPage, handlePageChange }) {
               // Check to see if the currentPage is `Contact`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
               className="hover:bg-m-pur hover:border-solid hover:border-2 hover:border-m-pur hover:rounded-md p-4"
             >
-              Contact
+              Contact Me
             </a>
           </li>
           <li

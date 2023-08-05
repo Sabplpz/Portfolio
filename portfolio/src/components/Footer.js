@@ -7,17 +7,25 @@ function Footer() {
   return (
     <footer className="footer justify-items-center md:justify-between grid p-2 pl-8 pr-8 bg-d-pur text-m-pur font-standard font-bold">
       <div className="grid-flow-col md:gap-4 md:place-self-center md:justify-self-start">
-        <a href="https://www.linkedin.com/in/sabrinaplpz/">
+        <a
+          href="https://www.linkedin.com/in/sabrinaplpz/"
+          target="_blank"
+          rel="noreferrer"
+        >
           <img
             src={linkedin}
             alt="Sabrina's logo"
             className="h-10 md:h-12"
           ></img>
         </a>
-        <a href="https://github.com/Sabplpz">
+        <a href="https://github.com/Sabplpz" target="_blank" rel="noreferrer">
           <img src={github} alt="Sabrina's logo" className="h-10 md:h-12"></img>
         </a>
-        <a href="mailto: sabrinaplpz@gmail.com">
+        <a
+          href="mailto: sabrinaplpz@gmail.com"
+          target="_blank"
+          rel="noreferrer"
+        >
           <img src={email} alt="Sabrina's logo" className="h-10 md:h-12"></img>
         </a>
       </div>
