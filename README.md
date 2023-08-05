@@ -1,10 +1,10 @@
 <div align="center">
-  <img alt="Logo" src="./portfolio/src/assets/icons/logo-2.png" width="200" />
+  <img alt="Logo" src="./portfolio/src/assets/icons/logo-2.png" width="300" />
 </div>
 <h1 align="center">
   Sabrina Centeno's Portfolio
 </h1>
-<div><img alt="badge" src="./portfolio/src/assets/badges/built-with-react.js.svg" width="50" /><img alt="badge" src="./portfolio/src/assets/badges/styled-by-tailwindcss.svg" width="50" /><img alt="badge" src="./portfolio/src/assets/badges/styled-by-daisyui.svg" width="50" /><img alt="badge" src="./portfolio/src/assets/badges/deployed-with-github.svg" width="50" /> </div>
+<div><img alt="badge" src="./portfolio/src/assets/badges/built-with-react.js.svg" width="100" /><img alt="badge" src="./portfolio/src/assets/badges/styled-by-tailwindcss.svg" width="100" /><img alt="badge" src="./portfolio/src/assets/badges/styled-by-daisyui.svg" width="100" /><img alt="badge" src="./portfolio/src/assets/badges/deployed-with-github.svg" width="100" /> </div>
 
 ## Welcome!!
 
