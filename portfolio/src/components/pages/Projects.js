@@ -1,8 +1,8 @@
 import React from "react";
-import firstProject from "../../assets/projects/moody.png";
-import secondProject from "../../assets/projects/techposts.png";
-import thirdProject from "../../assets/projects/stargazers.png";
-import fourthProject from "../../assets/projects/weather-dashboard.png";
+import firstProject from "../../assets/projects/concert-connect.png";
+import secondProject from "../../assets/projects/moody.png";
+import thirdProject from "../../assets/projects/techposts.png";
+import fourthProject from "../../assets/projects/stargazers.png";
 import fifthProject from "../../assets/projects/jate.png";
 import sixthProject from "../../assets/projects/first-portfolio.png";
 
@@ -18,11 +18,42 @@ export default function Projects() {
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-10 justify-items-center pr-4 pl-4 text-center">
         <div className="card md:w-96 bg-base-100 shadow-xl image-full">
           <figure>
-            <img src={firstProject} alt="Moody website" />
+            <img src={firstProject} alt="Concert Connect website" />
           </figure>
           <div className="card-body">
-            <h1 className="card-title">Moody</h1>
-            <p>A website for people that journal online!</p>
+            <h1 className="card-title">Concert Connect</h1>
+            <p>
+              Concert Connect is the new social media for concert goers! 
+            </p>
+            <div className="card-actions justify-end">
+              <a
+                href="https://github.com/Sabplpz/Concert-Connect"
+                target="_blank"
+                rel="noreferrer"
+                className="btn btn-primary bg-m-pur hover:bg-l-pur border-m-pur hover:border-l-pur"
+              >
+                Github Repo
+              </a>
+              <a
+                href="https://limitless-dawn-09471-5eef669ce044.herokuapp.com/"
+                target="_blank"
+                rel="noreferrer"
+                className="btn btn-primary bg-m-pur hover:bg-l-pur border-m-pur hover:border-l-pur"
+              >
+                Deployed Website
+              </a>
+            </div>
+          </div>
+        </div>
+        <div className="card md:w-96 bg-base-100 shadow-xl image-full">
+          <figure>
+            <img src={secondProject} alt="Moody Website" />
+          </figure>
+          <div className="card-body">
+            <h2 className="card-title">Moody</h2>
+            <p>
+              A website for people that journal online!
+            </p>
             <div className="card-actions justify-end">
               <a
                 href="https://github.com/Sabplpz/Moody"
@@ -45,7 +76,7 @@ export default function Projects() {
         </div>
         <div className="card md:w-96 bg-base-100 shadow-xl image-full">
           <figure>
-            <img src={secondProject} alt="Tech Posts Website" />
+            <img src={thirdProject} alt="Tech Posts Website" />
           </figure>
           <div className="card-body">
             <h2 className="card-title">Tech Posts</h2>
@@ -75,7 +106,7 @@ export default function Projects() {
         </div>
         <div className="card md:w-96 bg-base-100 shadow-xl image-full">
           <figure>
-            <img src={thirdProject} alt="Stargazers Website" />
+            <img src={fourthProject} alt="StarGazers Website" />
           </figure>
           <div className="card-body">
             <h2 className="card-title">StarGazers</h2>
@@ -94,35 +125,6 @@ export default function Projects() {
               </a>
               <a
                 href="https://sabplpz.github.io/StarGazers"
-                target="_blank"
-                rel="noreferrer"
-                className="btn btn-primary bg-m-pur hover:bg-l-pur border-m-pur hover:border-l-pur"
-              >
-                Deployed Website
-              </a>
-            </div>
-          </div>
-        </div>
-        <div className="card md:w-96 bg-base-100 shadow-xl image-full">
-          <figure>
-            <img src={fourthProject} alt="Weather Dashboard Website" />
-          </figure>
-          <div className="card-body">
-            <h2 className="card-title">Weather Dashboard</h2>
-            <p>
-              Want to check the weather online? Then this website is for you!
-            </p>
-            <div className="card-actions justify-end">
-              <a
-                href="https://github.com/Sabplpz/Weather-Dashboard"
-                target="_blank"
-                rel="noreferrer"
-                className="btn btn-primary bg-m-pur hover:bg-l-pur border-m-pur hover:border-l-pur"
-              >
-                Github Repo
-              </a>
-              <a
-                href="https://sabplpz.github.io/Weather-Dashboard/"
                 target="_blank"
                 rel="noreferrer"
                 className="btn btn-primary bg-m-pur hover:bg-l-pur border-m-pur hover:border-l-pur"
