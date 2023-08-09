@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.0f12c8f1.css",
-    "main.js": "/Portfolio/static/js/main.07e08a83.js",
+    "main.js": "/Portfolio/static/js/main.14b7b1c0.js",
     "static/media/stargazers.png": "/Portfolio/static/media/stargazers.3d3b62aff8fd2b980501.png",
     "static/media/concert-connect.png": "/Portfolio/static/media/concert-connect.9cf21fab2f5d605ef5aa.png",
     "static/media/first-portfolio.png": "/Portfolio/static/media/first-portfolio.faa2a49accee2097d53c.png",
     "static/media/moody.png": "/Portfolio/static/media/moody.cf30a4bda05b9128f2a1.png",
     "static/media/techposts.png": "/Portfolio/static/media/techposts.cb614c5ccb70d8e4dde8.png",
-    "static/media/resume.pdf": "/Portfolio/static/media/resume.ea564199b88577259fcc.pdf",
+    "static/media/Resume-SPCL.pdf": "/Portfolio/static/media/Resume-SPCL.083ebb2c4fdc5c8f4822.pdf",
     "static/media/logo-2.png": "/Portfolio/static/media/logo-2.7fe5df83c1c753fee5f0.png",
     "static/media/jate.png": "/Portfolio/static/media/jate.94c16047bb7e7868fee3.png",
     "static/media/github.png": "/Portfolio/static/media/github.248a844149297ea97b3c.png",
     "index.html": "/Portfolio/index.html",
     "main.0f12c8f1.css.map": "/Portfolio/static/css/main.0f12c8f1.css.map",
-    "main.07e08a83.js.map": "/Portfolio/static/js/main.07e08a83.js.map"
+    "main.14b7b1c0.js.map": "/Portfolio/static/js/main.14b7b1c0.js.map"
   },
   "entrypoints": [
     "static/css/main.0f12c8f1.css",
-    "static/js/main.07e08a83.js"
+    "static/js/main.14b7b1c0.js"
   ]
 }
