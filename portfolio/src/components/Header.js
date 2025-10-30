@@ -1,7 +1,7 @@
 import React from "react";
 import logo from "../assets/icons/logo-2.png";
 import menu from "../assets/icons/menu.png";
-import resume from '../assets/resume/resume.pdf';
+import resume from '../assets/resume/Tech-Resume-SPCL-10302025';
 import { useState, useEffect } from "react";
 
 // Here we are using object destructuring assignment to pluck off our variables from the props object
