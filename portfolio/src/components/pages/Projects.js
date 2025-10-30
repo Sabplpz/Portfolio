@@ -34,14 +34,6 @@ export default function Projects() {
               >
                 Github Repo
               </a>
-              <a
-                href="https://limitless-dawn-09471-5eef669ce044.herokuapp.com/"
-                target="_blank"
-                rel="noreferrer"
-                className="btn btn-primary bg-m-pur hover:bg-l-pur border-m-pur hover:border-l-pur"
-              >
-                Deployed Website
-              </a>
             </div>
           </div>
         </div>
@@ -62,14 +54,6 @@ export default function Projects() {
                 className="btn btn-primary bg-m-pur hover:bg-l-pur border-m-pur hover:border-l-pur"
               >
                 Github Repo
-              </a>
-              <a
-                href="https://tranquil-wildwood-45278.herokuapp.com/login"
-                target="_blank"
-                rel="noreferrer"
-                className="btn btn-primary bg-m-pur hover:bg-l-pur border-m-pur hover:border-l-pur"
-              >
-                Deployed Website
               </a>
             </div>
           </div>
@@ -92,14 +76,6 @@ export default function Projects() {
                 className="btn btn-primary bg-m-pur hover:bg-l-pur border-m-pur hover:border-l-pur"
               >
                 Github Repo
-              </a>
-              <a
-                href="https://afternoon-depths-34986-155d95e5176d.herokuapp.com/"
-                target="_blank"
-                rel="noreferrer"
-                className="btn btn-primary bg-m-pur hover:bg-l-pur border-m-pur hover:border-l-pur"
-              >
-                Deployed Website
               </a>
             </div>
           </div>
@@ -152,14 +128,6 @@ export default function Projects() {
                 className="btn btn-primary bg-m-pur hover:bg-l-pur border-m-pur hover:border-l-pur"
               >
                 Github Repo
-              </a>
-              <a
-                href="https://damp-sea-65701-156be6a47993.herokuapp.com/"
-                target="_blank"
-                rel="noreferrer"
-                className="btn btn-primary bg-m-pur hover:bg-l-pur border-m-pur hover:border-l-pur"
-              >
-                Deployed Website
               </a>
             </div>
           </div>
